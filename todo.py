@@ -11,7 +11,7 @@ while True:
     print("2. 查看所有任务")
     print("3.删除任务")
     print("4. 退出")
-    choice=input("请选择操作（1-4）：")
+    choice = input("请选择操作（1-4）：")
     match choice:
         case "1":
             task = input("请输入任务内容：")
